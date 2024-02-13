@@ -1,0 +1,28 @@
+{
+  "42161": {
+    "network": "Arbitrum",
+    "referrals": "0xA0E3C6E332225ACC151A17cEb835123843Af3f27",
+    "strikeManager": "0x5B7F7684C5A3222C4732FA12eD46A0b2a6Ba5B67",
+    "oracle" : "0x10692781C4470259eA93152499A571E9a7659db3",
+    "goodEntryCore": "0x0f92dFa56884A4D65Bf36b6b8968030831821881",
+    "lendingPools": [
+      {
+        "name": "ETH-USDB",
+        "address": "0x6898aC368DC7A4875808658b505Cc2C023c10ac0",
+        "positionManagerV2": "0x00204AC64774B3F1C47B686380d135E36DeF98E5",
+        "ohlcUrl": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=",
+        "tvSymbol" : "BYBIT:ETHUSDC",
+        "baseToken": {
+          "name": "ETH",
+          "address": "0x4200000000000000000000000000000000000023",
+          "decimals": 18
+        },
+        "quoteToken": {
+          "name": "USDB",
+          "address": "0x4200000000000000000000000000000000000022",
+          "decimals": 18
+        }
+      }
+    ]
+  }
+}
