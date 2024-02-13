@@ -20,15 +20,7 @@ const NavRight = () => {
   return (
     <div style={{ display: "flex", alignItems: "center", fontWeight: 600 }}>
       <a
-        href="https://discord.com/invite/goodentry"
-        target="_blank"
-        rel="noreferrer"
-        style={{ marginRight: 24, color: "#8A9098" }}
-      >
-        <img alt="discord" src="/images/discord-white.svg" height={13} />
-      </a>
-      <a
-        href="https://twitter.com/goodentrylabs"
+        href="https://twitter.com/RenshoProtocol"
         target="_blank"
         rel="noreferrer"
         style={{ marginRight: 24, color: "#8A9098" }}
@@ -36,15 +28,7 @@ const NavRight = () => {
         <TwitterOutlined style={{ fontSize: "larger" }} />
       </a>
       <a
-        href="https://goodentrylabs.medium.com/"
-        target="_blank"
-        rel="noreferrer"
-        style={{ marginRight: 24, color: "#8A9098" }}
-      >
-        <MediumOutlined style={{ fontSize: "larger"}} />
-      </a>
-      <a
-        href="https://github.com/GoodEntry-io/"
+        href="https://github.com/RenshoProtocol/"
         target="_blank"
         rel="noreferrer"
         style={{ marginRight: 24, color: "#8A9098" }}

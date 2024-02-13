@@ -76,7 +76,7 @@ const downloadImage = (blob, fileName) => {
           </span>
           <span style={{ float: 'right', marginRight: 12}}>
             <a
-              href="https://twitter.com/goodentrylabs"
+              href="https://twitter.com/RenshoProtocol"
               target="_blank"
               rel="noreferrer"
             >

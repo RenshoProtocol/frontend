@@ -8,7 +8,7 @@ export default function useOraclePrice(vault) {
   const [price, setPrice] = useState(0);
   //const vaultContract = useContract(vault.address, GEV_ABI);
 
-  const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+  const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
   const vaultContract = new ethers.Contract(vault.address, GEV_ABI, customProvider);
 
   useEffect(() => {

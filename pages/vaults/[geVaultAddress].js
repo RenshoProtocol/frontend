@@ -147,7 +147,7 @@ const GeVaults = ({}) => {
         <Typography.Text>
           The primary risk for running this strategy is extreme market volatility. Rensho only allows limited open interest against the vaults, and should be profitable on average but extreme market events can lead to temporary losses. 
           <br/><br/>
-          The Good Entry ezVault smart contracts were audited by Veridise and another audit by Peckshield is ongoing. Users are advised to exercise caution and only risk funds that they can afford to lose. 
+          The Rensho smart contracts were audited by Veridise and Peckshield. Users are still advised to exercise caution and only risk funds that they can afford to lose. 
         </Typography.Text>
       </Col>
       <Col

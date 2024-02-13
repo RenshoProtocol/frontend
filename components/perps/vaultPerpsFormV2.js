@@ -30,7 +30,7 @@ const VaultPerpsFormV2 = ({ vault, price, strikeManagerAddress, refresh, oiInfo 
     useTxNotification();
     
   
-  const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+  const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
   const pmContract = useContract(vault.positionManagerV2, GEPM_ABI);
   const quoteContract = useContract(vault.quoteToken.address, ERC20_ABI)
   const strikeContract = new ethers.Contract(strikeManagerAddress, StrikeManager_ABI, customProvider);

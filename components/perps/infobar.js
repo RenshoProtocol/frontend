@@ -37,7 +37,7 @@ const Infobar = ({vaults, current, selectVault, oiInfo }) => {
   useEffect(()=> {
     const getVol = async () => {
       try {
-        const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+        const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
         const oracleContract = new ethers.Contract("0x4A9EB72b72cB6fBbD8eF8C83342f252e519559e9", ORACLE_ABI, customProvider);
         let v = await oracleContract.getAdjustedVolatility(vault.baseToken.address, 0)
         setVolatility(ethers.utils.formatUnits(v, 8))

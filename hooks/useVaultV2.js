@@ -44,7 +44,7 @@ export default function useVaultV2(vault) {
   
   useEffect( () => {
     const getData = async () => {
-      const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+      const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
       const vaultV2Contract = new ethers.Contract(address, VAULTV2_ABI, customProvider);
 
       
