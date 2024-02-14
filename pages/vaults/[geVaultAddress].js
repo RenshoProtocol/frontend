@@ -27,7 +27,8 @@ const GeVaults = ({}) => {
     }
   }
   const vaultDetails = useVaultV2(vault);
-  const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+  console.log('vatde', vaultDetails)
+  const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
   let pmContract = new ethers.Contract(vault.positionManagerV2, GEPM_ABI, customProvider);
   
   

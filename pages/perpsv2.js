@@ -36,7 +36,7 @@ const PerpsV2 = () => {
     textDecorationLine: 'underline'
   }
   
-  const customProvider = new ethers.providers.JsonRpcProvider("https://arb1.arbitrum.io/rpc");
+  const customProvider = new ethers.providers.JsonRpcProvider("https://sepolia.blast.io");
   const pmContract     = new ethers.Contract(vault.positionManagerV2, GEPM_ABI, customProvider);
   const vaultContract  = new ethers.Contract(vault.address, GEV_ABI, customProvider);
   

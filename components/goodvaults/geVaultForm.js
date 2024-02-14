@@ -150,7 +150,7 @@ const GeVaultForm = ({vault, vaultDetails}) => {
     </Dropdown>
     <div style={{ marginTop: 24, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
       <span>Amount</span>
-      <span>Wallet: {parseFloat(balance).toFixed(3)} {direction == "Deposit" ? <>{token}</> : <>GEV-{vaultDetails.name}</>}</span>
+      <span>Wallet: {parseFloat(balance).toFixed(3)} {direction == "Deposit" ? <>{token}</> : <>{vaultDetails.name}</>}</span>
     </div>
     <div style={{ marginTop: 6, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
       <Input
