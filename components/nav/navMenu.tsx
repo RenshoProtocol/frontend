@@ -32,8 +32,8 @@ const NavMenu = ({ bgColor }) => {
       mode="horizontal"
       
     >
-      <Menu.Item key="/">Protected Perps</Menu.Item>
-      <Menu.Item key="/vaults">ezVaults</Menu.Item>
+      <Menu.Item key="/">Up / Down</Menu.Item>
+      <Menu.Item key="/vaults">House</Menu.Item>
       <Menu.Item key="https://gitbook.rensho.xyz/">Docs</Menu.Item>
     </Menu>
   );

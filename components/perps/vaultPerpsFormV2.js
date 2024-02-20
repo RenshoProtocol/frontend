@@ -199,7 +199,7 @@ const VaultPerpsFormV2 = ({ vault, price, strikeManagerAddress, refresh, oiInfo 
           }}
         >
           <div>
-            Activation Price
+            Price
             <span style={{ float: "right" }}>
               Funding / 1h{" "}
               <Popover
