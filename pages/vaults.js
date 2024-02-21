@@ -17,7 +17,7 @@ const GoodVaults = ({}) => {
 
   return (
     <div style={{ width: 1400 }}>
-      <Typography.Title>ezVaults</Typography.Title>
+      <Typography.Title>House</Typography.Title>
       <Row gutter={24} style={{ marginTop: 24 }}>
         {
           allgev.map((gv) => <GeVaultBox vault={gv} key={gv.name} />)
