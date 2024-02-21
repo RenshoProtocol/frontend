@@ -38,7 +38,7 @@ const VaultPerpsFormV2 = ({ vault, price, strikeManagerAddress, refresh, oiInfo 
   
   const [leverage, setLeverage] = useState(420)
   const [sliderLevel, setSliderLevel] = useState(3)
-  const leverageGrid = [100, 200, 420, 690, 1001, 1500, 2000, 2500, 3000, 3500, 4200, 5000, 6969];
+  const leverageGrid = [100, 200, 420, 690, 1001, 1500, 2000, 3000, 4000, 5000, 6969, 8000, 10000];
   
   const positionSize = collateralAmount * leverage;
   
