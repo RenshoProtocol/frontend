@@ -117,9 +117,9 @@ const GeVaults = ({}) => {
         xs={24}
       >
         <Typography.Title level={2}>
-          EzVault Strategy
+          House Strategy
         </Typography.Title>
-        <Typography.Text>There are 2 main ways that this vault earns yield. Firstly, supply apy by providing liquidity for traders to take on leveraged protected perp position(s). Secondly, amm swap fees as the liquidity is deposited into an underlying AMM. The vault reinvests the yield earned back into the strategy, effectively compounding the yields for users over time.  Users can deposit and withdraw from the ezVault at any point in time.
+        <Typography.Text>The house makes money against the gamblers by trading against them. Gamblers pay their wagers to the house on their bets. When liquidity is unused, the house earns swap fees in a uniswap v2 model.
         </Typography.Text>
         
         {/*<Typography.Title level={2}>Vault Stats</Typography.Title>
@@ -137,18 +137,17 @@ const GeVaults = ({}) => {
         <Typography.Text>
           Projected APR is based on past 30 days average.
         </Typography.Text>
-        <Typography.Title level={2}>Fee Structure</Typography.Title>
+        <Typography.Title level={2}>House Fees</Typography.Title>
         <Typography.Text>
-          There is a one-time deposit and withdraw fee. The base fee is 0.2%.
+          There is a one time deposit and withdraw fee of 0.2%.
           <br/>
-          Depending on the vault underlying assets imbalance, that fee is automatically adjusted from 0.1% to 0.3%.
+          Depending on asset imbalance it can be adjusted between 0.1% to 0.3%
         </Typography.Text>
         
         <Typography.Title level={2}>Risks</Typography.Title>
         <Typography.Text>
-          The primary risk for running this strategy is extreme market volatility. Rensho only allows limited open interest against the vaults, and should be profitable on average but extreme market events can lead to temporary losses. 
-          <br/><br/>
-          The Rensho smart contracts were audited by Veridise and Peckshield. Users are still advised to exercise caution and only risk funds that they can afford to lose. 
+          There are technical risks for the code<br/>
+There are also volatility risks. As per any casino, gamblers can win occasionally but over time the house should prevail as odds are stacked in their favour. 
         </Typography.Text>
       </Col>
       <Col
